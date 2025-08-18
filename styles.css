@@ -1,0 +1,64 @@
+body {
+color: white;
+background: black;
+margin: 0px;
+  font-family: "Jersey 10", sans-serif;
+       margin-bottom: 100;
+}
+
+header {
+border-bottom: solid 3px rgb(137, 5, 5);
+padding: 10px;
+color: brown;
+font-size: 32px;
+}
+
+.chamada {
+    margin: 20px;
+background:rgb(71,0,0);    
+padding-bottom: 60px;
+padding-left: 60px;
+padding-right: 60px;
+padding-top: 60px;
+display: flex;
+justify-content: center;
+}
+
+.primeiro-titulo{
+    padding-right: 3%;
+}
+h1{
+    font-size: 40px;
+}
+
+
+.categoria h2{
+    font-size: 40px;
+    color: brown;
+    padding-left: 20px;
+}
+
+.filmes-series {
+
+ margin: 20px;
+ display: flex;
+ overflow-x: auto ;
+ gap: 10px;
+ padding-left: 20px;
+      padding-right: 20px; margin: 20px;
+ 
+   
+
+}
+ 
+ 
+ .filmes-series img { 
+  opacity: 0.5;
+  height: 400px;
+
+ }
+
+  .filmes-series img:hover{
+    opacity: 1.0;
+    border: 2px solid green;
+  }
